@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e62b574-9b7a-45fe-93c2-dfdf4a9636b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/pages/selectorsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/runners/cukesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/runners/failedTestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/step_def/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/step_def/dropdown_def.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/utilities/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dropdown.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bin/step_def/dropdown_def.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bin/step_def/dropdown_def.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663415613005</updated>
-      <workItem from="1663415614989" duration="4344000" />
+      <workItem from="1663415614989" duration="4354000" />
     </task>
     <servers />
   </component>

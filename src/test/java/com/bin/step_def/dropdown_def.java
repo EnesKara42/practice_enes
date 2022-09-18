@@ -18,7 +18,7 @@ public class dropdown_def {
         Thread.sleep(5000);
         WebElement selected=dropdown.getFirstSelectedOption();
         String actualResult= selected.getAttribute("value");
-        System.out.println("actualResult = " + actualResult);
+        System.out.println("actualResul = " + actualResult);
     }
 
 }
