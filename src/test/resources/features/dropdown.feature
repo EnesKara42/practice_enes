@@ -6,4 +6,4 @@ Feature: Dropdown
 
     Examples:
       | option |
-      | opel   |
+      | saab   |
