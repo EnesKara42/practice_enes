@@ -33,6 +33,9 @@ public class dropdown_def {
 
     @When("User select a dropdown option {string}")
     public void user_select_a_dropdown_option(String car_name) throws InterruptedException, IOException {
+        /**
+         * select dropdown handle etme
+         */
         Driver.get().get(ConfigurationReader.get("url"));
 
         Select dropdown = new Select(selectorsPage.dropdown);

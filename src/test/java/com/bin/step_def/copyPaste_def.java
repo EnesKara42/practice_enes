@@ -7,9 +7,21 @@ import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.awt.Robot;
+
 public class copyPaste_def {
     Actions actions = new Actions(Driver.get());
     JavascriptExecutor js = (JavascriptExecutor) Driver.get();
+
+
+
+
 
     @When("User hold ctrl and press c button")
     public void user_hold_ctrl_and_press_c_button() {
@@ -41,4 +53,29 @@ public class copyPaste_def {
         js.executeScript("arguments[0].setAttribute('value','2');", canvas);
 
     }
+
+    @When("User tried to file upload , should be able to upload file")
+    public void userTriedToFileUploadShouldBeAbleToUploadFile() throws IOException, InterruptedException, AWTException {
+        /**
+         * dosya upload etme
+         */
+        String initUrl =  Driver.get().getCurrentUrl();
+
+        WebElement inputFile = Driver.get().findElement(By.name("my-file"));
+        Thread.sleep(3000);
+        String filename = "C:/Users/enes/Desktop/yabancı diziler.txt";
+        System.out.println("filename = " + filename);
+        Thread.sleep(3000);
+
+        inputFile.sendKeys(filename);
+        Thread.sleep(3000);
+        Driver.get().findElement(By.tagName("form")).submit();
+        Assert.assertNotEquals(Driver.get().getCurrentUrl(),initUrl);
+
+
+
+
+    }
+
+
 }

@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e62b574-9b7a-45fe-93c2-dfdf4a9636b6" name="Changes" comment="dd">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/step_def/copyPaste_def.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/copyPaste.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bin/step_def/RobotlaFileUpload_def.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/RobotlaFileUpload.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bin/runners/cukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bin/runners/cukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bin/step_def/copyPaste_def.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bin/step_def/copyPaste_def.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bin/step_def/dropdown_def.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bin/step_def/dropdown_def.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/copyPaste.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/copyPaste.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +47,72 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.cukesRunner">
-    <configuration name="Scenario: As a user, I should be able to copy and paste" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: RobotlaFileUpload" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/copyPaste.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/RobotlaFileUpload.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="practice_enes" />
-      <option name="NAME_FILTER" value="^As a user\, I should be able to copy and paste$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As a user\, I should be able to copy and paste$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: As a user, I should be able to copy and paste" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: RobotlaFileUpload" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: copyPaste" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/copyPaste.feature" />
+      <option name="GLUE" value="com.bin.step_def" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="practice_enes" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: copyPaste" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: As a user, I should be able to upload file with Robot" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/RobotlaFileUpload.feature" />
+      <option name="GLUE" value="com.bin.step_def" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="practice_enes" />
+      <option name="NAME_FILTER" value="^As a user\, I should be able to upload file with Robot$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As a user\, I should be able to upload file with Robot$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a user, I should be able to upload file with Robot" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: As a user, I should be able to upload file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/copyPaste.feature" />
+      <option name="GLUE" value="com.bin.step_def" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="practice_enes" />
+      <option name="NAME_FILTER" value="^As a user\, I should be able to upload file$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^As a user\, I should be able to upload file$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: As a user, I should be able to upload file" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +142,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.cukesRunner" />
-        <item itemvalue="Cucumber Java.Scenario: As a user, I should be able to copy and paste" />
+        <item itemvalue="Cucumber Java.Feature: RobotlaFileUpload" />
+        <item itemvalue="Cucumber Java.Scenario: As a user, I should be able to upload file with Robot" />
+        <item itemvalue="Cucumber Java.Scenario: As a user, I should be able to upload file" />
+        <item itemvalue="Cucumber Java.Feature: copyPaste" />
       </list>
     </recent_temporary>
   </component>
@@ -99,7 +162,8 @@
       <workItem from="1663659032056" duration="10000" />
       <workItem from="1664026201805" duration="19274000" />
       <workItem from="1664117232461" duration="861000" />
-      <workItem from="1664174580824" duration="4658000" />
+      <workItem from="1664174580824" duration="15156000" />
+      <workItem from="1664197055216" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="dd">
       <created>1663515498408</created>
@@ -129,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664117262303</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dd">
+      <created>1664179318121</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664179318121</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
