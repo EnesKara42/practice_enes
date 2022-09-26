@@ -62,6 +62,9 @@ public class dropdown_def {
         shadowElement.sendKeys("enes");
         Driver.get().switchTo().parentFrame();
 
+        /**
+         * iframe içinde iframe olunca aiağıdaki gibi yapman gerek
+         */
         Driver.get().switchTo().frame("pact1");
         Driver.get().switchTo().frame("pact2");
 
@@ -70,10 +73,15 @@ public class dropdown_def {
 
         Thread.sleep(3000);
 
+        /**
+         * intercepted click exception çözümü
+         */
         JavascriptExecutor executor = (JavascriptExecutor)Driver.get();
         executor.executeScript("arguments[0].click();", selectorsPage.jordanMathews);
 
-
+        /**
+         * screenshot of web element
+         */
         File srcFile = selectorsPage.date.getScreenshotAs(OutputType.FILE);
 
         FileUtils.copyFile(srcFile, new File("./target/test-classes/enes.png"));
