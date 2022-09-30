@@ -1,4 +1,4 @@
-@wip
+
 Feature: File upload feature
 
   Scenario: As a user, I should be able to upload file with Robot

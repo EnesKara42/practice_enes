@@ -27,4 +27,13 @@ public class selectorsPage {
 
     @FindBy(xpath = "//input[@id='tea']")
     public WebElement root1;
+
+    @FindBy(xpath = "//input[@id='userId']")
+    public WebElement EnterEmail;
+
+    @FindBy(xpath ="//input[contains(@placeholder,'First Enter')]" )
+    public WebElement EnterFirstName;
+
+    @FindBy(xpath ="//input[contains(@placeholder,'Last')]" )
+    public WebElement EnterLastName;
 }
